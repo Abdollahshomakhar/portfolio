@@ -135,4 +135,4 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = "eghorbani361@gmail.com"
-EMAIL_HOST_PASSWORD = "qqmp ctfr jpit pnck"
+EMAIL_HOST_PASSWORD = ""
