@@ -6,9 +6,7 @@ from django.contrib.auth.views import LoginView, LogoutView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('properties/', include('properties.urls')),  # ← این خط رو اضافه کن
-    path('login/', LoginView.as_view(template_name='properties/login.html'), name='login'),
-    path('logout/', LogoutView.as_view(next_page='login'), name='logout'),
+    path("", include("portfolio.urls")),
 ]
 
 if settings.DEBUG:
